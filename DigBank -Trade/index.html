@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    
+
+    <title>DigBank Trade- Welcome</title>
+    
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/jquery.lightbox.min.css">
+
+   
+    <link href="css/style.css" rel="stylesheet">
+    
+   
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    
+   
+
+</head>
+
+<body id="page-top">
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only"></span>Menu<i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="images/DIG1.png" width="200 px"  class="img-responsive"></a>
+            </div>
+
+           
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#page-top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#cotacao">Cotação</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#moeda">Selecione a Moeda</a>
+                    </li>
+                                 
+                    <li>
+                        <a class="page-scroll" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </nav>
+    
+     <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="bwt-header-content">
+                        <div class="bwt-header-content-inner">
+                            <h1>Compre facilmente a Moeda Virtual</h1>
+                            <h2>O DigBank Trade é a maneira mais rápida e fácil de comprar e vender moedas virtuais. Nós garantimos o processamento rápido de transações e as melhores taxas da moeda virtual.</h2>
+                            <a href="#cotacao" class="btn btn-box btn-xl page-scroll">cotação em tempo real</a>
+                        </div>
+                    </div>
+                    <div class="bwt-click-to-bottom">
+				<a href="#cotacao" class="scroll">
+					<i class="fa  fa-chevron-down"></i>
+				</a>
+			</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<section id="cotacao" class="bwt-cotacao text-center">
+<div class="container text-center">
+<h1 class="bwt-section-title text-uppercase">Cotação em tempo real</h1>
+<hr>
+<div class="row">
+<div class="col-md-6">
+<div class="bdr">
+<h2>Bitcoin</h2>
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="coinmarketcap-currency-widget" data-currencyid="1" data-base="USD" ></div>
+<a href="https://bitcoin.org/en/">Confira o Site!</a>
+</div>
+</div>
+<div class="col-md-6">
+<div class="bdr">
+<h2>Litecoin</h2>
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="2" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+<a href="https://litecoin.org/">Confira o Site!</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="moeda" class="bwt-moeda text-left">
+<div class="container text-center">
+<div class="row">
+
+<div class="col-md-6 img-responsive">
+<h1 class="bwt-section-title text-uppercase">Selecione a Moeda</h1>
+<hr>
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="technical-analysis"></div>
+  <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/BTCUSD/" rel="noopener" target="_blank"><span class="blue-text">BTCUSD</span> <span class="blue-text">chart</span> by TradingView</a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "container_id": "technical-analysis",
+  "width": 998,
+  "height": 610,
+  "symbol": "BTCUSD",
+  "interval": "D",
+  "timezone": "exchange",
+  "theme": "Light",
+  "style": "1",
+  "toolbar_bg": "#f1f3f6",
+  "withdateranges": true,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "save_image": false,
+  "hideideas": true,
+  "studies": [
+    "ROC@tv-basicstudies",
+    "StochasticRSI@tv-basicstudies",
+    "MASimple@tv-basicstudies"
+  ],
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650",
+  "locale": "br"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+</div>
+</div>
+</div>
+
+</section>
+
+
+
+
+
+
+<section id="contato" class="bwt-contato text-left">
+<div class="container text-center">
+<h1 class="bwt-section-title text-uppercase">CONTATO</h1>
+<hr>
+<div class="row">
+<div class="col-md-4 top-marg">
+<input name="" type="text" placeholder="Digite seu Nome">
+</div>
+<div class="col-md-4 top-marg">
+<input name="" type="text" placeholder="Digite seu Telefone">
+</div>
+<div class="col-md-4 top-marg">
+<input name="" type="email" placeholder="Digite seu E-mail">
+</div>
+<div class="col-md-12 top-marg-2">
+<textarea name="" cols="" rows="3" placeholder="Mensagem"></textarea>
+</div>
+<div class="col-md-12 top-marg">
+<input name="" type="submit" value="Enviar">
+</div>
+</div>
+</div>
+</section>
+
+<footer class="bwt-footer">
+<div class="container text-left">
+<div class="row">
+
+<div class="col-sm-12 col-md-4">
+<div class="icon"><i class="fa fa-map-marker"></i></div>
+<div class="icon-text">
+<h3>Localização</h3>
+<p>Avenida Paulista - Bela Vista - 436, São Paulo - SP
+</p>
+</div>
+</div>
+
+<div class="col-sm-12 col-md-4 md-top-marg">
+<div class="icon"><i class="fa fa-phone"></i></div>
+<div class="icon-text">
+<h3>Telefones</h3>
+<p>11-98509-8876<br>11-4755-4712</p>
+</div>
+</div>
+
+<div class="col-sm-12 col-md-4 md-top-marg">
+<div class="icon"><i class="fa fa-envelope-o"></i></div>
+<div class="icon-text">
+<h3>E-Mail </h3>
+<p>info@digbanktrade.com<br>
+rh@digbanktrade.com
+</p>
+</div>
+</div>
+
+</div>
+</div>
+</footer>
+
+<div class="bwt-footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="left-text">Copyright &copy; DigBank Trade 2018. Todos Direitos Reservados</div>
+</div>
+
+<div class="right-text">Desenvolvedor <a target="_blank" href="#" title="#">André Cardoso</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+ 
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/jquery.lightbox.min.js"></script>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>	
